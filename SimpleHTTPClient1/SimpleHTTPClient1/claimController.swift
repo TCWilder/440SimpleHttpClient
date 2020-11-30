@@ -87,9 +87,9 @@ class claimController: UIViewController {
         addBtn.heightAnchor.constraint(equalToConstant: 20).isActive = true
         addBtn.widthAnchor.constraint(equalToConstant: 55).isActive = true
         
-        statusLbl.leadingAnchor.constraint(equalTo: headerLbl.leadingAnchor).isActive = true
+        statusLbl.leadingAnchor.constraint(equalTo: claimLbl.leadingAnchor).isActive = true
         statusLbl.topAnchor.constraint(equalTo: addBtn.bottomAnchor, constant: 20).isActive = true
-        statusLbl.widthAnchor.constraint(equalToConstant: 70).isActive = true
+        statusLbl.widthAnchor.constraint(equalToConstant: 60).isActive = true
         statusLbl.heightAnchor.constraint(equalToConstant: 20).isActive = true
         
         stateLbl.leadingAnchor.constraint(equalTo: statusLbl.trailingAnchor, constant: 10).isActive = true
