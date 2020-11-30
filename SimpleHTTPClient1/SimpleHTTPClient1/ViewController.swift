@@ -53,7 +53,7 @@ class ViewController: UIViewController {
         trCont.isActive = true
         
         // 2. Retrieve data
-        let pService = PersonService(vc : self)
+        let pService = PersonService(vc: self)
         // Testing getAll() method
         pService.getAll()
 

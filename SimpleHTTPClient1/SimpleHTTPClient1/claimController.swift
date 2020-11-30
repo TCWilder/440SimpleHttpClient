@@ -101,6 +101,8 @@ class claimController: UIViewController {
     
     @objc func addClaim () {
         stateLbl.text = "Claim \(claimTxt.text!) failed to be created"
+        claimTxt.text = ""
+        dateTxt.text = ""
         claimTxt.endEditing(true)
         dateTxt.endEditing(true)
     }

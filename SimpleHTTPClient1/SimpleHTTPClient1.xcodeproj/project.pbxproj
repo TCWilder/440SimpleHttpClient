@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C3A64B0625748C9400B31364 /* claimController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A64B0525748C9400B31364 /* claimController.swift */; };
+		C3A64B092574CA2400B31364 /* claimService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A64B082574CA2400B31364 /* claimService.swift */; };
 		D27F8DFB2548FC9D0025712A /* FieldValueViewGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27F8DFA2548FC9D0025712A /* FieldValueViewGenerator.swift */; };
 		D27F8DFD254902EA0025712A /* PersonDetailSectionGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27F8DFC254902EA0025712A /* PersonDetailSectionGenerator.swift */; };
 		D282F13F252D4F510082965C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D282F13E252D4F510082965C /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		C3A64B0525748C9400B31364 /* claimController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = claimController.swift; sourceTree = "<group>"; };
+		C3A64B082574CA2400B31364 /* claimService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = claimService.swift; sourceTree = "<group>"; };
 		D27F8DFA2548FC9D0025712A /* FieldValueViewGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldValueViewGenerator.swift; sourceTree = "<group>"; };
 		D27F8DFC254902EA0025712A /* PersonDetailSectionGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailSectionGenerator.swift; sourceTree = "<group>"; };
 		D282F13B252D4F510082965C /* SimpleHTTPClient1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleHTTPClient1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				D282F150252D4FC70082965C /* PersonService.swift */,
+				C3A64B082574CA2400B31364 /* claimService.swift */,
 				D282F13E252D4F510082965C /* AppDelegate.swift */,
 				D282F140252D4F510082965C /* ViewController.swift */,
 				C3A64B0525748C9400B31364 /* claimController.swift */,
@@ -152,6 +155,7 @@
 				D27F8DFD254902EA0025712A /* PersonDetailSectionGenerator.swift in Sources */,
 				D282F13F252D4F510082965C /* AppDelegate.swift in Sources */,
 				D282F151252D4FC70082965C /* PersonService.swift in Sources */,
+				C3A64B092574CA2400B31364 /* claimService.swift in Sources */,
 				D27F8DFB2548FC9D0025712A /* FieldValueViewGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
